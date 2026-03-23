@@ -1,6 +1,6 @@
 # Clinical Data Reconciliation & Quality Engine
 
-## 📌 Overview
+## Overview
 This project implements a mini clinical data processing engine designed to:
 
 - Reconcile conflicting medication records from multiple sources  
@@ -11,7 +11,7 @@ The system simulates real-world Electronic Health Record (EHR) challenges such a
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 **Frontend:** Streamlit Dashboard  
 **Backend:** FastAPI REST API  
@@ -24,9 +24,9 @@ Reconciliation Engine ── Data Quality Engine ── AI Reasoning Service
 
 ---
 
-## ⚙️ Features
+## Features
 
-### 🧾 Medication Reconciliation
+### Medication Reconciliation
 - Aggregates medication records from:
   - EHR systems
   - Primary care
@@ -42,14 +42,14 @@ Reconciliation Engine ── Data Quality Engine ── AI Reasoning Service
 
 ---
 
-### 📊 Confidence Scoring
+### Confidence Scoring
 Based on:
 - Source reliability  
 - Recency of data  
 - Agreement across sources  
 
-👉 Higher agreement = higher confidence  
-👉 More conflicts = lower confidence  
+Higher agreement = higher confidence  
+More conflicts = lower confidence  
 
 ---
 
@@ -64,7 +64,7 @@ Outputs:
 
 ---
 
-### 📈 Data Quality Validation
+### Data Quality Validation
 
 | Dimension | Description |
 |----------|------------|
@@ -80,7 +80,7 @@ Detects issues such as:
 
 ---
 
-### 🤖 AI-Assisted Reasoning
+### AI-Assisted Reasoning
 - Explanation of medication selection  
 - Clinical risk insights  
 - Follow-up recommendations  
@@ -88,7 +88,7 @@ Detects issues such as:
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### POST `/api/reconcile/medication`
 
@@ -110,3 +110,12 @@ Detects issues such as:
     }
   ]
 }
+
+---
+## How to Run the Engine
+### Backend
+  uvicorn backend.main:app --reload --port 8010
+### Frontend
+  python -m streamlit run frontend/app.py
+
+
