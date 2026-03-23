@@ -13,11 +13,9 @@ The system simulates real-world Electronic Health Record (EHR) challenges such a
 
 ## Architecture
 
-Frontend (Streamlit Dashboard)
-↓
-Backend (FastAPI REST API)
-↓
-Service Layer
+**Frontend:** (Streamlit Dashboard)
+**Backend:** (FastAPI REST API)
+**Service Layer**
 ├── Reconciliation Engine
 ├── Data Quality Engine
 └── AI Reasoning Service
@@ -115,20 +113,21 @@ Detects issues such as:
 ---
 
 ## How to Run the Engine
-### Backend
-Bash```
+### 1.Backend
+```
   uvicorn backend.main:app --reload --port 8010
 ```
-### Frontend
-Bash```
+### 2.Frontend
+```
   python -m streamlit run frontend/app.py
 ```
 
-### Open in Browser
+### 3.Open in Browser
 ```
   Local URL: http://localhost:8501
   Network URL: http://192.168.0.186:8501http://localhost:8501
 ```
+
 ---
 
 ## Author: Fangyilang Yang
