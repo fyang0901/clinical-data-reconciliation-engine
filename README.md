@@ -1,4 +1,4 @@
-# Clinical Data Reconciliation & Quality Engine
+# Clinical Data Reconciliation & Data Quality Engine
 
 ## Overview
 This project implements a mini clinical data processing engine designed to:
