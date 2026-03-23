@@ -111,11 +111,19 @@ Detects issues such as:
   ]
 }
 ```
+
 ---
+
 ## How to Run the Engine
 ### Backend
+Bash```
   uvicorn backend.main:app --reload --port 8010
+```
 ### Frontend
+Bash```
   python -m streamlit run frontend/app.py
+```
 
+---
 
+## Author ---- Fangyilang Yang
