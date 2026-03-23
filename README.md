@@ -13,8 +13,6 @@ The system simulates real-world Electronic Health Record (EHR) challenges such a
 
 ## Architecture
 
-## Architecture
-
 **Frontend:** Streamlit Dashboard  
 **Backend:** FastAPI REST API  
 
