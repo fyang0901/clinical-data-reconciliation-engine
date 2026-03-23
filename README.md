@@ -13,14 +13,14 @@ The system simulates real-world Electronic Health Record (EHR) challenges such a
 
 ## Architecture
 
-**Frontend:** Streamlit Dashboard  
-**Backend:** FastAPI REST API  
-Frontend (Streamlit)
+Frontend (Streamlit Dashboard)
+↓
+Backend (FastAPI REST API)
 ↓
 Service Layer
-↓
-Reconciliation Engine ── Data Quality Engine ── AI Reasoning Service
-
+├── Reconciliation Engine
+├── Data Quality Engine
+└── AI Reasoning Service
 
 ---
 
@@ -48,12 +48,12 @@ Based on:
 - Recency of data  
 - Agreement across sources  
 
-Higher agreement = higher confidence  
-More conflicts = lower confidence  
+Higher agreement → higher confidence  
+More conflicts → lower confidence  
 
 ---
 
-### 🩺 Clinical Safety Checks
+### Clinical Safety Checks
 Example:
 - Metformin use with reduced eGFR  
 
@@ -124,6 +124,11 @@ Bash```
   python -m streamlit run frontend/app.py
 ```
 
+### Open in Browser
+```
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.0.186:8501http://localhost:8501
+```
 ---
 
-## Author ---- Fangyilang Yang
+## Author: Fangyilang Yang
