@@ -13,12 +13,12 @@ The system simulates real-world Electronic Health Record (EHR) challenges such a
 
 ## Architecture
 
-**Frontend:** (Streamlit Dashboard)
-**Backend:** (FastAPI REST API)
-**Service Layer**
-├── Reconciliation Engine
-├── Data Quality Engine
-└── AI Reasoning Service
+###**Frontend:** (Streamlit Dashboard)
+###**Backend:** (FastAPI REST API)
+###**Service Layer**
+###├── Reconciliation Engine
+###├── Data Quality Engine
+###└── AI Reasoning Service
 
 ---
 
