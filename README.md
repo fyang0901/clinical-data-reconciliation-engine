@@ -110,7 +110,7 @@ Detects issues such as:
     }
   ]
 }
-
+```
 ---
 ## How to Run the Engine
 ### Backend
