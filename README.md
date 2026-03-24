@@ -177,12 +177,12 @@ venv\Scripts\activate      # Windows
 
 ### 3. Install Requirements
 ```bash
-pip install -r requirements.txt
+  pip install -r requirements.txt
 ```
 
 ### 4. Set API Key
 ```bash
-OPENAI_API_KEY=your_api_key_here
+  OPENAI_API_KEY=your_api_key_here
 ```
 
 ### 5. Backend(FastAPI)
